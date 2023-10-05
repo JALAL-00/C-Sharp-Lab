@@ -1,0 +1,7 @@
+Y:\Desktop\Shared Parallel\Bin\Find-Min-Max\Find-Min-Max\bin\Debug\Find-Min-Max.exe.config
+Y:\Desktop\Shared Parallel\Bin\Find-Min-Max\Find-Min-Max\bin\Debug\Find-Min-Max.exe
+Y:\Desktop\Shared Parallel\Bin\Find-Min-Max\Find-Min-Max\bin\Debug\Find-Min-Max.pdb
+Y:\Desktop\Shared Parallel\Bin\Find-Min-Max\Find-Min-Max\obj\Debug\Find-Min-Max.csproj.AssemblyReference.cache
+Y:\Desktop\Shared Parallel\Bin\Find-Min-Max\Find-Min-Max\obj\Debug\Find-Min-Max.csproj.CoreCompileInputs.cache
+Y:\Desktop\Shared Parallel\Bin\Find-Min-Max\Find-Min-Max\obj\Debug\Find-Min-Max.exe
+Y:\Desktop\Shared Parallel\Bin\Find-Min-Max\Find-Min-Max\obj\Debug\Find-Min-Max.pdb
