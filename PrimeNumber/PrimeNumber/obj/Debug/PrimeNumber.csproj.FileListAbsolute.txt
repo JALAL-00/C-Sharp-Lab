@@ -1,0 +1,7 @@
+Y:\Desktop\Shared Parallel\Bin\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe.config
+Y:\Desktop\Shared Parallel\Bin\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe
+Y:\Desktop\Shared Parallel\Bin\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.pdb
+Y:\Desktop\Shared Parallel\Bin\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.csproj.AssemblyReference.cache
+Y:\Desktop\Shared Parallel\Bin\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.csproj.CoreCompileInputs.cache
+Y:\Desktop\Shared Parallel\Bin\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.exe
+Y:\Desktop\Shared Parallel\Bin\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.pdb
