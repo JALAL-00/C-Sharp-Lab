@@ -1,0 +1,7 @@
+Y:\Desktop\Shared Parallel\LAB\Matrix\Matrix\bin\Debug\Matrix.exe.config
+Y:\Desktop\Shared Parallel\LAB\Matrix\Matrix\bin\Debug\Matrix.exe
+Y:\Desktop\Shared Parallel\LAB\Matrix\Matrix\bin\Debug\Matrix.pdb
+Y:\Desktop\Shared Parallel\LAB\Matrix\Matrix\obj\Debug\Matrix.csproj.AssemblyReference.cache
+Y:\Desktop\Shared Parallel\LAB\Matrix\Matrix\obj\Debug\Matrix.csproj.CoreCompileInputs.cache
+Y:\Desktop\Shared Parallel\LAB\Matrix\Matrix\obj\Debug\Matrix.exe
+Y:\Desktop\Shared Parallel\LAB\Matrix\Matrix\obj\Debug\Matrix.pdb
