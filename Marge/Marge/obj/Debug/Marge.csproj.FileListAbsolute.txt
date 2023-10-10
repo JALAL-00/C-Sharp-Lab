@@ -1,0 +1,7 @@
+Y:\Desktop\Shared Parallel\LAB\Marge\Marge\bin\Debug\Marge.exe.config
+Y:\Desktop\Shared Parallel\LAB\Marge\Marge\bin\Debug\Marge.exe
+Y:\Desktop\Shared Parallel\LAB\Marge\Marge\bin\Debug\Marge.pdb
+Y:\Desktop\Shared Parallel\LAB\Marge\Marge\obj\Debug\Marge.csproj.AssemblyReference.cache
+Y:\Desktop\Shared Parallel\LAB\Marge\Marge\obj\Debug\Marge.csproj.CoreCompileInputs.cache
+Y:\Desktop\Shared Parallel\LAB\Marge\Marge\obj\Debug\Marge.exe
+Y:\Desktop\Shared Parallel\LAB\Marge\Marge\obj\Debug\Marge.pdb
