@@ -1,0 +1,7 @@
+Y:\Desktop\Shared Parallel\LAB\Search\Search\bin\Debug\Search.exe.config
+Y:\Desktop\Shared Parallel\LAB\Search\Search\bin\Debug\Search.exe
+Y:\Desktop\Shared Parallel\LAB\Search\Search\bin\Debug\Search.pdb
+Y:\Desktop\Shared Parallel\LAB\Search\Search\obj\Debug\Search.csproj.AssemblyReference.cache
+Y:\Desktop\Shared Parallel\LAB\Search\Search\obj\Debug\Search.csproj.CoreCompileInputs.cache
+Y:\Desktop\Shared Parallel\LAB\Search\Search\obj\Debug\Search.exe
+Y:\Desktop\Shared Parallel\LAB\Search\Search\obj\Debug\Search.pdb
