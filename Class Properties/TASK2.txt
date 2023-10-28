@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+
+class BankAccount
+{
+
+    public string accountNumber { get; set; }
+    public string name { get; set; }
+    public double balance { get; private set; }
+    public BankAccount(string accountNumber, string name, double balance)
+    {
+        this.accountNumber = accountNumber;
+        this.name = name;
+        this.balance = balance;
+    }
+
+
+    public void Deposit(double amount)
+    {
+        balance += amount;
+        Console.WriteLine("Account Balance after depositing "+amount +" dollar: " + balance);
+
+    }
+    public void Withdraw(double amount)
+    {
+       balance-= amount;
+        Console.WriteLine("Account Balance after withdrawing "+ amount +" dollar: " + balance);
+
+    }
+
+    public void displayDetails()
+    {
+        Console.WriteLine("Bank Account Details: ");
+        Console.WriteLine("Account Number: " + accountNumber);
+        Console.WriteLine("Account Name: " + name);
+        Console.WriteLine("Account Balance: $" + balance);
+      
+    }
+}
+
+namespace BANKACCOUNT
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            BankAccount b1 = new BankAccount("12000", "smith", 5000);
+            b1.displayDetails();
+            b1.Deposit(1000);
+            b1.Withdraw(500);
+            b1.displayDetails();
+
+            Console.ReadKey();
+        }
+    }
+}

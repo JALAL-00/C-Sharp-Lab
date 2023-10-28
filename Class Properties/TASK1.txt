@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+class Book
+{
+    public string tittle { get; set; }
+    public string name { get; set; }
+    public double price { get; set; }
+
+    public Book(string tittle, string name, double price)
+    {
+        this.tittle = tittle;
+        this.name = name;
+        this.price = price;
+    }
+
+    public void DisplayDetails()
+    {
+        Console.WriteLine("Book Details: ");
+        Console.WriteLine("Tittle: " + tittle);
+        Console.WriteLine("Author Name: " + name);
+        Console.WriteLine("prince: " + price);
+        Console.WriteLine();
+    }
+}
+
+
+
+
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Book b1 = new Book("Math", "Jhon", 100);
+            b1.DisplayDetails();
+
+
+
+
+
+            Console.ReadKey();
+        }
+    }
+}

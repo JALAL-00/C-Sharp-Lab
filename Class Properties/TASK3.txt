@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+public class Product
+{ 
+   public string name { get; set; }
+    public double price { get; set; }
+    public int quantity { get; set; }
+
+    public Product(string name, double price, int quantity)
+    {
+        this.name = name;
+        this.price = price; 
+        this.quantity = quantity;
+    }
+
+    public  void totalCost()
+    {
+        Console.WriteLine("Total cost of the product: " + price * quantity);
+    }
+
+    public void displayDetails()
+    {
+        Console.WriteLine("Product Details: ");
+        Console.WriteLine("Product Name: " + name);
+        Console.WriteLine("Product Price: " + price);
+        Console.WriteLine("Product Quantity: " +  quantity);
+        
+    }
+
+}
+
+namespace PRODUCT
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Product p1 = new Product("Lemon", 10, 100);
+            p1.displayDetails();
+            p1.totalCost();
+
+            Console.ReadKey();
+        }
+    }
+}
