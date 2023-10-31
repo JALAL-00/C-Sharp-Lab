@@ -1,0 +1,7 @@
+Y:\Desktop\Shared Parallel\LAB\Inheritance-2\Inheritance-2\bin\Debug\Inheritance-2.exe.config
+Y:\Desktop\Shared Parallel\LAB\Inheritance-2\Inheritance-2\bin\Debug\Inheritance-2.exe
+Y:\Desktop\Shared Parallel\LAB\Inheritance-2\Inheritance-2\bin\Debug\Inheritance-2.pdb
+Y:\Desktop\Shared Parallel\LAB\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.csproj.AssemblyReference.cache
+Y:\Desktop\Shared Parallel\LAB\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.csproj.CoreCompileInputs.cache
+Y:\Desktop\Shared Parallel\LAB\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.exe
+Y:\Desktop\Shared Parallel\LAB\Inheritance-2\Inheritance-2\obj\Debug\Inheritance-2.pdb

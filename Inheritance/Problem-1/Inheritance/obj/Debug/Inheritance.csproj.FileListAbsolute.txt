@@ -1,0 +1,14 @@
+Y:\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+Y:\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+Y:\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+Y:\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.AssemblyReference.cache
+Y:\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+Y:\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+Y:\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
+\\Mac\Home\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+\\Mac\Home\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
+\\Mac\Home\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+\\Mac\Home\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+\\Mac\Home\Desktop\Shared Parallel\LAB\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
