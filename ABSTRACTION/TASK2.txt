@@ -1,0 +1,73 @@
+
+using System;
+
+
+namespace OOP2K
+{
+    abstract class Animal
+    {
+        public abstract void Animalsound();
+
+        public abstract void AnimalSize();
+
+    }
+}
+ 
+
+namespace OOP2K
+{
+    class Cat : Animal
+    {
+        public override void Animalsound()
+        {
+            Console.WriteLine("Meow");
+        }
+
+        public override void AnimalSize()
+        {
+            Console.WriteLine("Animal size is small");
+        }
+    }
+}
+ 
+
+namespace OOP2K
+{
+    class Dog : Animal
+    {
+        public override void Animalsound()
+        {
+            Console.WriteLine("Gheu");
+        }
+
+        public override void AnimalSize()
+        {
+            Console.WriteLine("Animal Size is medium");
+
+        }
+    }
+}
+ 
+
+namespace OOP2K
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Animal A = new Animal();
+            Animal B = new Cat();
+            Animal C = new Dog();
+
+
+
+           // A.Animalsound();
+            B.Animalsound();
+            B.AnimalSize();
+            C.Animalsound();
+            C.AnimalSize();
+            Console.ReadLine();
+        }
+    }
+
+}
