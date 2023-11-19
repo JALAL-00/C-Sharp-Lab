@@ -1,0 +1,133 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ABSTRACT;
+
+namespace Abstract
+{
+    public class MusicFile
+    {
+        public string Title { get; private set; }
+        public string Artist { get; private set; }
+        public int YearOfRelease { get; private set; }
+        public int DurationInSeconds { get; private set; }
+
+        public MusicFile(string title, string artist, int yearOfRelease, int durationInSeconds)
+        {
+            Title = title;
+            Artist = artist;
+            YearOfRelease = yearOfRelease;
+            DurationInSeconds = durationInSeconds;
+        }
+
+        public void ChangeTitle(string title)
+        {
+            Title = title;
+        }
+    }
+
+
+
+    public class Phone : IRadioPlayer, IMusicPlayer
+    {
+        private bool isRadioOn;
+        private bool isMusicPlayerOn;
+
+        public void Switch(bool on)
+        {
+            isRadioOn = on;
+            isMusicPlayerOn = on;
+            Console.WriteLine("Phone is Switched On");
+        }
+
+        public void Retune(double frequency)
+        {
+            if (isRadioOn)
+            {
+                Console.WriteLine("Frequency of the phone:  "+ frequency);
+            }
+            else
+            {
+                Console.WriteLine("Radio is not turned on");
+            }
+        }
+
+        public void SetVolume(int loudness)
+        {
+            if (isRadioOn || isMusicPlayerOn)
+            {
+                Console.WriteLine("Loudness is : "+ loudness);
+            }
+            else
+            {
+                Console.WriteLine("Neither radio nor music player is turned on");
+            }
+        }
+
+        public void ChangeChannel()
+        {
+            if (isRadioOn)
+            {
+                Console.WriteLine("Changing radio channel");
+            }
+            else
+            {
+                Console.WriteLine("Radio is not turned on");
+            }
+        }
+
+        public void Play(bool on)
+        {
+            isMusicPlayerOn = on;
+            Console.WriteLine("Music Player is turned on");
+        }
+
+        public void PlayNext()
+        {
+            if (isMusicPlayerOn)
+            {
+                Console.WriteLine("Playing next music track");
+            }
+            else
+            {
+                Console.WriteLine("Music player is not turned on");
+            }
+        }
+
+        public void PlayPrevious()
+        {
+            if (isMusicPlayerOn)
+            {
+                Console.WriteLine("Playing previous music track");
+            }
+            else
+            {
+                Console.WriteLine("Music player is not turned on");
+            }
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+
+            Phone P = new Phone();
+
+            P.Switch(true);
+            P.Retune(88.7);
+            P.SetVolume(13);
+            P.ChangeChannel();
+
+            P.Play(true);
+            P.SetVolume(22);
+            P.PlayNext();
+            P.PlayPrevious();
+
+            //Console.ReadKey();
+        }
+    }
+
+}

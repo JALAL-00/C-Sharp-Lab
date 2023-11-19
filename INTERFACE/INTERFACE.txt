@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ABSTRACT
+{
+    public interface IRadioPlayer
+    {
+        void Switch(bool on);
+        void Retune(double frequency);
+        void SetVolume(int loudness);
+        void ChangeChannel();
+    }
+
+    public interface IMusicPlayer
+    {
+        void Switch(bool on);
+        void Play(bool on);
+        void SetVolume(int loudness);
+        void PlayNext();
+        void PlayPrevious();
+    }
+}
