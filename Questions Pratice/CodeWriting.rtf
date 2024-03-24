@@ -1,0 +1,86 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2757
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh16080\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx6529\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 using System;\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+class Person\
+\{\
+    public string Name \{ get; set; \}\
+    public string Address \{ get; set; \}\
+    public string PhoneNumber \{ get; set; \}\
+\}\
+\
+class Customer : Person\
+\{\
+    public int CustomerNumber \{ get; set; \}\
+    public bool IsOnMailingList \{ get; set; \}\
+\}\
+\
+class PreferredCustomer : Customer\
+\{\
+    private double _overallPurchases;\
+\
+    public double OverallPurchases\
+    \{\
+        get \{ return _overallPurchases; \}\
+        set\
+        \{\
+            _overallPurchases = value;\
+            UpdateDiscountLevel();\
+        \}\
+    \}\
+\
+    public int DiscountLevel \{ get; private set; \}\
+\
+    private void UpdateDiscountLevel()\
+    \{\
+        if (_overallPurchases >= 2000)\
+        \{\
+            DiscountLevel = 7;\
+        \}\
+        else if (_overallPurchases >= 1500)\
+        \{\
+            DiscountLevel = 5;\
+        \}\
+        else if (_overallPurchases >= 1000)\
+        \{\
+            DiscountLevel = 2;\
+        \}\
+        else if (_overallPurchases >= 500)\
+        \{\
+            DiscountLevel = 1;\
+        \}\
+        else\
+        \{\
+            DiscountLevel = 0;\
+        \}\
+    \}\
+\}\
+\
+class Program\
+\{\
+    static void Main(string[] args)\
+    \{\
+        PreferredCustomer customer = new PreferredCustomer\
+        \{\
+            Name = "John Doe",\
+            Address = "123 Main St",\
+            PhoneNumber = "555-1234",\
+            CustomerNumber = 12345,\
+            IsOnMailingList = true,\
+            OverallPurchases = 1500\
+        \};\
+\
+        Console.WriteLine($"Customer Information: \{customer.Name\}, \{customer.Address\}, \{customer.PhoneNumber\}");\
+        Console.WriteLine($"Customer Number: \{customer.CustomerNumber\}");\
+        Console.WriteLine($"Is on Mailing List: \{customer.IsOnMailingList\}");\
+        Console.WriteLine($"Overall Purchases: \{customer.OverallPurchases:C\}");\
+        Console.WriteLine($"Discount Level: \{customer.DiscountLevel\}%");\
+    \}\
+\}\
+}

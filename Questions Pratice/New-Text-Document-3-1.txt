@@ -1,0 +1,35 @@
+Write a C# program for the following scenario:
+Design a class named Person with properties for holding a person’s name, address, and telephone number. 
+Next, design a class named Customer, which is derived from the Person class. The Customer class should 
+have a property for a customer number and a Boolean property indicating whether the customer wishes to 
+be on a mailing list. A retail store has a preferred customer plan where a customer can earn discounts on all 
+purchases. The amount of a customer’s discount is determined by the amount of the customer's overall 
+purchases in the store as follows: 
+• When a preferred customer spends TK. 500, he or she gets 1 percent discount on future purchases.
+• When a preferred customer spends TK. 1000, he or she gets 2 percent discount on future purchases.
+• When a preferred customer spends TK. 1500, he or she gets 5 percent discount on future purchases.
+• When a preferred customer spends TK. 2000, he or she gets 7 percent discount on future purchases.
+Design a class named PreferredCustomer, which is derived from the Customer class. The 
+PreferredCustomer class should have properties for the customer’s overall purchases and customer’s 
+discount level.
+The Main method is already given for you, try to write other classes to make it happen, write appropriate 
+fields, methods, properties etc. Use proper access modifiers, types etc.
+
+
+public class PreferredCustomerTest
+{ static void Main(string[] args)
+ { PreferredCustomer pc1 = new PreferredCustomer();
+ pc1.Name = "RAHIM";
+ pc1.Address = "Dhaka";
+ pc1.Mobile = 123456789;
+ pc1.MailingListPermission = true;
+ pc1.TotalPurchase = 7000;
+ Console.WriteLine(pc1.Name);
+ Console.WriteLine(pc1.Address);
+ Console.WriteLine(pc1.Mobile);
+ Console.WriteLine(pc1.MailingListPermission);
+ Console.WriteLine(pc1.TotalPurchase);
+ Console.WriteLine(pc1.DscountLevel); 
+ }} 
+
+
