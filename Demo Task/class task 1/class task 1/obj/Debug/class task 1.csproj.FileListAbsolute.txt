@@ -1,0 +1,8 @@
+F:\proggaming\c#\class task 1\class task 1\bin\Debug\class task 1.exe.config
+F:\proggaming\c#\class task 1\class task 1\bin\Debug\class task 1.exe
+F:\proggaming\c#\class task 1\class task 1\bin\Debug\class task 1.pdb
+F:\proggaming\c#\class task 1\class task 1\obj\Debug\class task 1.csproj.AssemblyReference.cache
+F:\proggaming\c#\class task 1\class task 1\obj\Debug\class task 1.csproj.SuggestedBindingRedirects.cache
+F:\proggaming\c#\class task 1\class task 1\obj\Debug\class task 1.csproj.CoreCompileInputs.cache
+F:\proggaming\c#\class task 1\class task 1\obj\Debug\class task 1.exe
+F:\proggaming\c#\class task 1\class task 1\obj\Debug\class task 1.pdb
